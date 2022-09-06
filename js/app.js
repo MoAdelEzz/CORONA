@@ -9,6 +9,15 @@ $('.funnytext').funnyText({
     direction: 'both'
 });
 
+$('.AboutHeader').funnyText({
+    speed: 500,
+    borderColor: 'none',
+    activeColor: '#064590',
+    color: '#064590',
+    fontSize: 'inherit',
+    direction: 'both'
+});
+
 
 
 

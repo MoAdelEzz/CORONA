@@ -276,3 +276,83 @@ section
     font-size: 12px;
     color: #7D92bb;
 }
+
+
+/* ====================================================================================================================== */
+
+#Section-2 
+{
+    padding-top: 100px;
+}
+
+#Section-2 h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: oswald;
+    font-style: italic;
+    color: #2A81EA;
+    font-weight: 800;
+
+}
+
+#Section-2 .AboutHeader
+{
+    font-style:normal;
+    text-align: left;
+    margin-bottom: 0px;
+    color: #064590;
+    margin: 20px 0px;
+
+}
+
+#Section-2 h2
+{
+    font-size: 26px;
+    font-family: oswald;
+    color: #212529;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+#Section-2 h3
+{
+    font-size: 24px;
+    font-family: var(--macFont);
+    color: #212529;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+#Section-2 p
+{
+    font-size: 16px;
+    font-family: var(--macFont);
+    color:#3d4b69;
+}
+
+.myRow
+{
+    border: 1px solid #e7e8ff;
+    text-align: center;
+    margin: 20px 0px;
+    box-shadow: 10px 10px 11px black;
+}
+
+.tableContent
+{
+    border-bottom:1px solid #e7e8ff;
+    height: 70px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.h1Content
+{
+    font-size: 20px;
+    font-family: var(--macFont);
+    color: #212529;
+    font-weight: bold;
+    text-align: center;
+}
