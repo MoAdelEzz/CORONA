@@ -53,3 +53,34 @@ $('.counter-3')
     'startValue' : 46016509,
 }
 );
+
+let executed = false;
+
+$(document).scroll( ()=>
+{
+
+    console.log(window.scrollY)
+
+    let minScroll = window.innerWidth > 600 ? 400 : 1000;
+    let maxScroll = window.innerWidth > 600 ? 450 : 1100;
+
+
+    if (window.scrollY > minScroll && window.screenY < maxScroll && !executed)
+    {
+
+        $('#FadeDownEffect').css({'height' : '0px'});
+
+        $('#FadeDownEffect').animate
+        (
+            {
+                height : '100%'
+            },
+            5000
+        )
+        executed = true;
+    }
+}
+)
+
+
+

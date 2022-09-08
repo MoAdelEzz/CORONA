@@ -37,6 +37,11 @@
         text-align: center;
     }
 
+    #Section-2 .AboutHeader
+    {
+        font-size: 34px;
+    }
+
 }
 
 /* ================================== md Screens ==================================*/
@@ -152,7 +157,24 @@
     #Section-2 .AboutHeader
     {
         text-align: center;
+        font-size: 22px;
     }
+    #Section-2 h2
+    {
+        font-size: 20px;
+    }
+    
+    #Section-2 h3
+    {
+        font-size: 18px;
+    }
+    
+    #Section-2 p
+    {
+        font-size: 16px;
+    }
+    
+
 }
 
 
