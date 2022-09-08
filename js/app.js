@@ -73,7 +73,7 @@ $(document).scroll( ()=>
     let minScroll = window.innerWidth > 600 ? 200 : 1000;
     let maxScroll = window.innerWidth > 600 ? 250 : 1100;
 
-    if (window.scrollY > 50 && window.innerWidth > 600)
+    if (window.scrollY > 50)
     {
         $('.navbarWrapper').css({'background-color': 'white'});
     }
