@@ -1,5 +1,5 @@
 /* ================================== xl Screens ==================================*/
-@media (min-width:1440px)
+@media (min-width:1200px)
 {
     .toggler
     {
@@ -14,7 +14,7 @@
 
 
 /* ================================== lg Screens ==================================*/
-@media (max-width: 1439px) and (min-width: 1024px)
+@media (max-width: 1199px) and (min-width: 992px)
 {
     .toggler
     {
@@ -45,7 +45,7 @@
 }
 
 /* ================================== md Screens ==================================*/
-@media (max-width: 1023px) and (min-width: 600px) 
+@media (max-width: 991px) and (min-width: 768px) 
 {
 
     .navbarWrapper
@@ -76,11 +76,15 @@
     {
         text-align: center;
     }
+    #Section-3 button.btn
+    {
+        width: 100% !important;
+    }
 }
 
 
 /* ================================== sm Screens ==================================*/
-@media(max-width:600px)
+@media(max-width:767px)
 {
     .navbarWrapper
     {
@@ -157,8 +161,14 @@
     #Section-2 .AboutHeader
     {
         text-align: center;
-        font-size: 22px;
+        font-size: 18px;
     }
+
+    #Section-2 h1
+    {
+        font-size: 25px;
+    }
+
     #Section-2 h2
     {
         font-size: 20px;
@@ -173,8 +183,16 @@
     {
         font-size: 16px;
     }
-    
+    #Section-3 button.btn
+    {
+        width: 90% !important;
+        font-size: 18px;
+    }
 
+    #Section-3 .FunnyHeader
+    {
+        font-size: 20px;
+    }
 }
 
 

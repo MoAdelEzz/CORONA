@@ -18,6 +18,15 @@ $('.AboutHeader').funnyText({
     direction: 'both'
 });
 
+$('.FunnyHeader').funnyText({
+    speed: 500,
+    borderColor: 'none',
+    activeColor: '#064590',
+    color: '#064590',
+    fontSize: 'inherit',
+    direction: 'both'
+});
+
 
 
 
@@ -61,9 +70,17 @@ $(document).scroll( ()=>
 
     console.log(window.scrollY)
 
-    let minScroll = window.innerWidth > 600 ? 400 : 1000;
-    let maxScroll = window.innerWidth > 600 ? 450 : 1100;
+    let minScroll = window.innerWidth > 600 ? 200 : 1000;
+    let maxScroll = window.innerWidth > 600 ? 250 : 1100;
 
+    if (window.scrollY > 50 && window.innerWidth > 600)
+    {
+        $('.navbarWrapper').css({'background-color': 'white'});
+    }
+    else
+    {
+        $('.navbarWrapper').css({'background-color': 'transparent'});
+    }
 
     if (window.scrollY > minScroll && window.screenY < maxScroll && !executed)
     {
