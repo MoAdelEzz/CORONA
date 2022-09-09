@@ -2685,6 +2685,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
+@keyframes rollInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%) rotate(120deg);
+    -ms-transform: translateX(100%) rotate(120deg);
+    transform: translateX(100%) rotate(120deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+  
+}
+
 @keyframes rollIn {
   0% {
     opacity: 0;
@@ -2704,6 +2721,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rollIn {
   -webkit-animation-name: rollIn;
   animation-name: rollIn;
+}
+
+.rollInLeft
+{
+  -webkit-animation-name: rollInLeft;
+  animation-name: rollInLeft;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
