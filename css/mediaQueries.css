@@ -25,7 +25,7 @@
         width: 100%;
     }
 
-    .btn-primary
+    #Section-1 .btn-primary
     {
         width: 100% !important;
         margin-bottom: 10px;
@@ -35,6 +35,10 @@
     {
         width: 100% !important;
         text-align: center;
+    }
+    #Section-5 a
+    {
+        width: 25%;
     }
 
     #Section-2 .AboutHeader
@@ -79,6 +83,10 @@
     #Section-3 button.btn
     {
         width: 100% !important;
+    }
+    #Section-5 .btn-primary
+    {
+        width: 40%;
     }
 }
 
@@ -194,17 +202,17 @@
         font-size: 20px;
     }
 
-    #Section-4 h2
+    #Section-4 h2, #Section-5 h2
     {
         font-size: 14px;
     }
     
-    #Section-4 h1
+    #Section-4 h1, #Section-5 h1
     {
         font-size: 18px;
     }
 
-    #Section-4 h3
+    #Section-4 h3, #Section-5 h3
     {
         text-align: center;
         margin-bottom: 30px;
@@ -236,6 +244,21 @@
     #Section-4 .btn-primary
     {
         font-size: 18px;
+    }
+    #Section-5 .btn-primary
+    {
+        text-align: left;
+    }
+    
+    #Section-5 .lastSubSection h2
+    {
+        line-height: 70px;
+    }
+    
+    
+    #Section-5 .lastSubSection .image
+    {
+        margin-right: 100px;
     }
 }
 
