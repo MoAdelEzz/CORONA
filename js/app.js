@@ -68,8 +68,6 @@ let executed = false;
 $(document).scroll( ()=>
 {
 
-    console.log(window.scrollY)
-
     let minScroll = window.innerWidth > 600 ? 200 : 1000;
     let maxScroll = window.innerWidth > 600 ? 250 : 1100;
 
@@ -97,7 +95,34 @@ $(document).scroll( ()=>
         executed = true;
     }
 }
+);
+
+let prevResolution = window.innerWidth;
+
+window.onresize = ()=>
+{
+    let currResolution = window.innerWidth;
+
+    if (currResolution > 760 && prevResolution <= 760)
+    {
+        window.location.reload();
+    }
+
+    if (currResolution <= 760 && prevResolution > 760)
+    {
+        window.location.reload();
+    }
+}
+
+
+
+let nice = $("body").niceScroll();
+console.log(nice);
+
+$('.TopButton').click(
+()=>
+{
+   nice.doScrollTop(0, 2000); // Scroll Y Axis
+}
 )
-
-
 

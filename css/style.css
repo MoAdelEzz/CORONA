@@ -742,3 +742,138 @@ section
 {
     background-image: url(../images/Section7-6.png);
 }
+
+
+/*===========================================================================================================*/
+
+#Section-7
+{
+    background-image: url(../images/lastSectionBackground.png);
+    background-size: 100% 100%;
+    background-color: #2766BB;
+}
+
+#Section-7 h3
+{
+    color: #73e3ff;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-family: var(--macFont);
+}
+
+#Section-7 h2
+{
+    color: white;
+    font-size: 42px;
+    font-family: oswald;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+#Section-7 p
+{
+    font-family: var(--macFont);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+}
+
+#Section-7 p span
+{
+    font-size: 20px;
+    font-family: oswald;
+    font-weight: 900;
+}
+
+#Section-7 .Square
+{
+    background-color: #1b47a1;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px white;
+    padding: 36px 36px;
+
+    margin: 20px 0px;
+}
+
+
+#Section-7 .Square span
+{
+    display: block;
+    width: 95%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+#Section-7 .Square h1
+{
+    font-size: 20px !important;
+    font-family: var(--macFont);
+    color: white;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+#Section-7 .Square p
+{
+    font-size: 16px;
+    font-family: var(--macFont);
+    color: white;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+}
+
+#Section-7 .Square ul
+{
+    list-style: none;
+}
+
+#Section-7 .Square ul li
+{
+    font-size: 16px;
+    font-family: var(--macFont);
+    font-weight: 500;
+    margin: 0px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.TopButton
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: blue;
+
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.TopButton .fa-arrow-up
+{
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+
+
+    top: 30%;
+    left: 30%;
+    z-index: 1000;
+}

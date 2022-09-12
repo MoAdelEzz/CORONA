@@ -260,6 +260,18 @@
     {
         margin-right: 100px;
     }
+
+    
+    #Section-7 h2
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #Section-7 h3
+    {
+        text-align: center;
+    }
 }
 
 
