@@ -133,7 +133,11 @@ window.onresize = ()=>
 
 
 
-let nice = $("body").niceScroll();
+let nice = $("body").niceScroll(
+    {
+        mousescrollstep: 75,
+    }
+);
 console.log(nice);
 
 $('.TopButton').click(
