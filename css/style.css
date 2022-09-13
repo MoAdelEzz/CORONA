@@ -863,6 +863,10 @@ section
     border-radius: 50%;
     width: 75px;
     height: 75px;
+    z-index: 1000;
+
+
+    transition: all 1s;
 }
 
 .TopButton .fa-arrow-up
@@ -875,5 +879,4 @@ section
 
     top: 30%;
     left: 30%;
-    z-index: 1000;
 }

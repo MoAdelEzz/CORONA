@@ -94,6 +94,17 @@ $(document).scroll( ()=>
         )
         executed = true;
     }
+
+
+    if (window.scrollY >= 750)
+    {
+        $('.TopButton').css({'opacity' : '1'});
+    }
+    else
+    {
+        $('.TopButton').css('opacity','0');
+    }
+
 }
 );
 
@@ -126,3 +137,22 @@ $('.TopButton').click(
 }
 )
 
+
+$('.forJsNav').click(
+    ()=>
+    {
+
+            let nav =  $('.navbarWrapper');
+
+            console.log(nav.css('background-color'));
+
+            if (nav.css('background-color') == "white")
+            {
+                $('.navbarWrapper').css({'background-color': 'transparent'});
+            }
+            else
+            {
+                $('.navbarWrapper').css({'background-color': 'white'});
+            }
+    }
+)

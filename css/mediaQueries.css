@@ -52,19 +52,11 @@
 @media (max-width: 991px) and (min-width: 768px) 
 {
 
-    .navbarWrapper
-    {
-        background-color: white;
-    }
 
     .navbar
     {
         height: auto;
         width: 100%;
-    }
-    .tags-container
-    {
-        border-bottom: 1px solid grey;
     }
     .tag
     {
@@ -94,10 +86,6 @@
 /* ================================== sm Screens ==================================*/
 @media(max-width:767px)
 {
-    .navbarWrapper
-    {
-        background-color: white;
-    }
     .navbar
     {
         height: auto;
@@ -106,7 +94,6 @@
     .tags-container
     {
         flex-wrap: wrap;
-        border-bottom: 1px solid grey;
     }
     .tag
     {
