@@ -1,5 +1,7 @@
 new WOW().init();
 
+var scroll = new SmoothScroll('a[href*="#"]');
+
 $('.funnytext').funnyText({
     speed: 500,
     borderColor: 'black',
@@ -141,4 +143,6 @@ $('.TopButton').click(
 }
 )
 
+
+$('.tableContent').niceScroll();
 

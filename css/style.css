@@ -865,6 +865,7 @@ section
     height: 75px;
     z-index: 1000;
 
+    opacity: 0;
 
     transition: all 1s;
 }
