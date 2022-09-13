@@ -52,7 +52,10 @@
 @media (max-width: 991px) and (min-width: 768px) 
 {
 
-
+    .navbarWrapper
+    {
+        background-color: #fff;
+    }
     .navbar
     {
         height: auto;
@@ -86,6 +89,11 @@
 /* ================================== sm Screens ==================================*/
 @media(max-width:767px)
 {
+    
+    .navbarWrapper
+    {
+        background-color: #fff;
+    }
     .navbar
     {
         height: auto;

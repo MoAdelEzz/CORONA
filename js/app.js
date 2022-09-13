@@ -71,6 +71,9 @@ $(document).scroll( ()=>
     let minScroll = window.innerWidth > 600 ? 200 : 1000;
     let maxScroll = window.innerWidth > 600 ? 250 : 1100;
 
+    if (window.innerWidth > 800)
+    {
+
     if (window.scrollY > 50)
     {
         $('.navbarWrapper').css({'background-color': 'white'});
@@ -78,6 +81,7 @@ $(document).scroll( ()=>
     else
     {
         $('.navbarWrapper').css({'background-color': 'transparent'});
+    }
     }
 
     if (window.scrollY > minScroll && window.screenY < maxScroll && !executed)
@@ -138,21 +142,3 @@ $('.TopButton').click(
 )
 
 
-$('.forJsNav').click(
-    ()=>
-    {
-
-            let nav =  $('.navbarWrapper');
-
-            console.log(nav.css('background-color'));
-
-            if (nav.css('background-color') == "white")
-            {
-                $('.navbarWrapper').css({'background-color': 'transparent'});
-            }
-            else
-            {
-                $('.navbarWrapper').css({'background-color': 'white'});
-            }
-    }
-)
